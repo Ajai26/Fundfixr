@@ -4,7 +4,7 @@ import Footer from '../Components/Footer.jsx'
 
 import React, { Fragment } from "react";
 import {Outlet} from "react-router-dom"
-import Home from './Home.jsx';
+
 const Layout=()=>{
     return(
         <Fragment>
@@ -12,7 +12,7 @@ const Layout=()=>{
             
             <main>
                 <Outlet/>
-                <Home/>
+              
             </main>
             <Footer/>
 
