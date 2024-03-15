@@ -21,9 +21,11 @@ const Startup = () => {
       <div className="lg:flex lg:pt-8 ">
       
           <div className="lg:w-[800px] container  xl:pt-24 lg:pt-10 pt-20">
-            <h1 className="font-[1000] xl:text-[4.2rem] lg:text-[3rem] md:text-[3.2rem] text-3xl lg:w-[79%] text-white xl:leading-[5rem] md:leading-[4rem]">
+            <h1 data-aos='fade-right'
+            data-aos-duration='1500' className="font-[1000] xl:text-[4.2rem] lg:text-[3rem] md:text-[3.2rem] text-3xl lg:w-[79%] text-white xl:leading-[5rem] md:leading-[4rem]">
             Smart Product & Services for {" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#f0ab4a]">
+              <span  data-aos='fade-left'
+            data-aos-duration='1500' className="text-transparent bg-clip-text bg-gradient-to-br from-[#6664F1] to-[#f0ab4a]">
                 {" "}
                 Founder's And Investor's{" "}
               </span>
@@ -37,7 +39,8 @@ const Startup = () => {
                   
                
               </div>
-              <p className="xl:w-[50%] lg:w-[70%] md:w-[80%] text-[20  px] text-[#faf9f6] lg:leading-6 xl:pl-5 xl:pt-0 pt-4 pb-4">
+              <p  data-aos='fade-up'
+            data-aos-duration='1500' className="xl:w-[50%] lg:w-[70%] md:w-[80%] text-[20  px] text-[#faf9f6] lg:leading-6 xl:pl-5 xl:pt-0 pt-4 pb-4">
               Information, innovation & consultation platforms for startup founders, small business owners,
                investors, organisations, corporates, governments and researchers.
               </p>
