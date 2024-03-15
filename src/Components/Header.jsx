@@ -15,7 +15,7 @@ const Header = () => {
             <div className='menu ' >
             
               <ul className='flex items-center gap-10'>
-                <li><a    className=' text-[#ff9201] font-[600]  hover:text-red-500' href="home">
+                <li><a    className=' text-[#ff9201] font-[600]  hover:text-red-500' href="/">
                   Home</a></li>
                 <li><a   className=' text-[#ff9201] font-[600] hover:text-red-500' href="about">
                   AboutUs</a></li>

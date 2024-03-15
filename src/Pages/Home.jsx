@@ -56,7 +56,7 @@ const Home = () => {
     }
   ];
   return (
-    <div id='auth' className='bg-[#FAF9F6] container'>
+    <div id='/' className='bg-[#FAF9F6] container'>
       <div className=' lg:pt-5  home  homeimg ' >
         <div className='text-center'>
           <h2

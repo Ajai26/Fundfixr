@@ -27,7 +27,7 @@ import Investorcard from './Pages/Investor/Investorcard';
 const routes = createBrowserRouter(createRoutesFromElements(
   
   <Route path ='/' element={<Layout/>}>
-    <Route path='/home' element={<Home/>}/>
+    <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<Aboutus/>}/>
     <Route path='/invest' element={<Investorlogin/>}/>
     <Route path='/startup' element={<Startuplogin/>}/>
