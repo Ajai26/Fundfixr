@@ -25,6 +25,7 @@ import Insightsdashboard from './Pages/Insightsdashboard';
 import Investorcard from './Pages/Investor/Investorcard';
 
 const routes = createBrowserRouter(createRoutesFromElements(
+  
   <Route path ='/' element={<Layout/>}>
     <Route path='/home' element={<Home/>}/>
     <Route path='/about' element={<Aboutus/>}/>

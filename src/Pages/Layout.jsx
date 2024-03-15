@@ -9,11 +9,12 @@ const Layout=()=>{
     return(
         <Fragment>
             <Header/>
-            <Home/>
-            <main>
-                <Outlet/>
+         
+           
+            <Outlet/>
               
-            </main>
+           
+           
             <Footer/>
 
 
