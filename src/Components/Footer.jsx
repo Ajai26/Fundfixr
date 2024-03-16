@@ -64,11 +64,11 @@ const Footer = () => {
        
           
        
-
-      </div>
-      <div className='bg-[#faf9f6] pt-12 flex items-center justify-center  text-black text-[14px]'>
+        <div className=' pt-12 flex items-center justify-center  text-black text-[14px]'>
         Copyright {year} by FundFixr - All right reserved.
       </div>
+      </div>
+      
 
     </footer>
   )

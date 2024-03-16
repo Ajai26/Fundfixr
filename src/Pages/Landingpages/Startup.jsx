@@ -16,7 +16,7 @@ const Startup = () => {
   return (
     
     <div id='startuplanding' className='container'>
-        <div className="from-[#ff9201] to-[#006dff] bg-gradient-to-b w-full  px-10 lg:px-28 lg:h-full overflow-hidden">
+        <div className="from-[#006dff] to-[#ff9201] bg-gradient-to-b w-full  px-10 lg:px-28 lg:h-full overflow-hidden">
     
       <div className="lg:flex lg:pt-8 ">
       

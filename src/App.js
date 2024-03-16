@@ -23,11 +23,11 @@ import Faq from './Pages/Faq';
 import PricingPage from './Pages/Pricingpage';
 import Insightsdashboard from './Pages/Insightsdashboard';
 import Investorcard from './Pages/Investor/Investorcard';
+import Contact from './Pages/Contact';
 
 const routes = createBrowserRouter(createRoutesFromElements(
-  
   <Route path ='/' element={<Layout/>}>
-    <Route path='/' element={<Home/>}/>
+    <Route path='/home' element={<Home/>}/>
     <Route path='/about' element={<Aboutus/>}/>
     <Route path='/invest' element={<Investorlogin/>}/>
     <Route path='/startup' element={<Startuplogin/>}/>
@@ -40,6 +40,7 @@ const routes = createBrowserRouter(createRoutesFromElements(
     <Route path='/faq' element={<Faq/>}/>
     <Route path='/insights' element={<Insightsdashboard/>}/>
     <Route path='/investorprofile' element={<Investorcard/>}/>
+    <Route path='/contact' element={<Contact/>}/>
     
     
     

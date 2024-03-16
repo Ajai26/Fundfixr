@@ -56,7 +56,7 @@ const Home = () => {
     }
   ];
   return (
-    <div id='/' className='bg-[#FAF9F6] container'>
+    <div id='home' className='bg-[#FAF9F6] container'>
       <div className=' lg:pt-5  home  homeimg ' >
         <div className='text-center'>
           <h2
@@ -82,8 +82,8 @@ const Home = () => {
           <h3
             data-aos='fade-left'
             data-aos-duration='1500'
-            className='  text-[#006dff] font-[700] text-[2.4rem] mb-5'>
-            Welcome to FundFixr
+            className='  text-[#006dff] lg:mx-auto font-[700] text-[3.8rem] mb-5'>
+            FundFixr
 
 
           </h3>
