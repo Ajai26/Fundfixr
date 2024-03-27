@@ -27,6 +27,7 @@ import Contact from './Pages/Contact';
 
 const routes = createBrowserRouter(createRoutesFromElements(
   <Route path ='/' element={<Layout/>}>
+    <Route index element={<Home/>}/>
     <Route path='/home' element={<Home/>}/>
     <Route path='/about' element={<Aboutus/>}/>
     <Route path='/invest' element={<Investorlogin/>}/>
